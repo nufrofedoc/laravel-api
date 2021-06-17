@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Htpp\Controllers\AuthController;
 use App\Http\Controllers\City\CityController;
 
 /*
@@ -16,8 +17,8 @@ use App\Http\Controllers\City\CityController;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
+Route::post('/user', [AuthController::class, 'user'])->middleware('auth:sanctum');
 
 Route::get('city', [CityController::class, 'city']);
