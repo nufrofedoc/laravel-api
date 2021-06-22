@@ -11,3 +11,4 @@ $ composer update
 ## References
 
 [Sanctum](https://laravel.com/docs/8.x/sanctum)
+[Task Scheduling](https://laravel.com/docs/8.x/scheduling)
