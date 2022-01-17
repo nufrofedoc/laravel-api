@@ -1,6 +1,6 @@
 # Laravel API
 
-The implementation Laravel API.
+The implementation REST API API in Laravel framework.
 
 ## Installation
 
