@@ -1,12 +1,17 @@
 # Laravel API
 
-The simple implementation Laravel API. Testing in Postman.
+The implementation Laravel API.
 
-## Quick Start
+## Installation
 
 ```console
-$ composer update
+$ composer install
 ```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## References
 
